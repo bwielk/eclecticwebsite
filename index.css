@@ -1,0 +1,213 @@
+
+header {
+ font-size: 160%;
+ text-align: center;
+ padding: 2%;
+ border: 1px solid rgba(224,224,235,1);
+ margin:auto;
+ border-bottom-left-radius: 10em;
+ border-bottom-right-radius: 10em;
+ background: linear-gradient(to top, rgba(224, 224, 235, 1) 0%, rgba(255,255,255,0) 60%);
+ margin-top: -2%;
+}
+
+header p:nth-child(2) {
+  text-align: center;
+  font-size: 110%;
+  font-family: Indie Flower;
+  color: black;
+  font-style: cursive;
+  margin-bottom: -2%;
+}
+header p:nth-child(3) {
+  text-align: center;
+  font-size: 70%;
+  font-family: Indie Flower;
+  color: black;
+  font-style: cursive;
+  word-spacing: -50%;
+}
+
+header p:nth-child(3):hover {
+  font-size: 110%;
+  color: rgb(255, 230, 204);
+}
+p a { 
+ text-decoration: none;
+ color: white;
+}
+
+nav {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4em;
+  background: linear-gradient(to left, rgba(123,43,21,1)0%, rgba(23,11,144,1)60% );
+}
+
+ul {
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  font-size: 140%;
+  display: inline;
+  font-family: Lobster;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  padding: 0.5% 1%;
+  margin: 2% 2%;
+  border: 1px solid ivory;
+  border-radius: 0.2em 0.8em;
+  text-align: center;
+
+}
+
+
+#link1:hover{
+  color: ivory;
+}
+
+#beh1:hover {
+  font-size: 120%;
+  color: red;
+  font-family: impact;
+  /*border: 3px dotted #b3ecff;*/
+  background: linear-gradient(to bottom, rgb(7, 79, 193) 0%,rgba(255,255,255,0) 70%); 
+  padding: 1%;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  box-shadow: 0px 0px 0px 10px rgb(255,255,255);
+}
+
+#beh2:hover {
+  font-size: 140%;
+  background: linear-gradient(to right, rgb(9, 78, 183) 0%, rgb(255, 255, 255)50%, rgb(249, 2, 2)100%);
+  border-width: 110%;
+  padding: 1%;
+  color: black;
+  font-family: arial serif;
+  font-weight: bold;
+  border-radius: 0.3em;
+  /*outline: 0.1em dashed white;*/
+  box-shadow: 0.25em 0.5em 1em 0.1em rgb(0, 122, 204);
+}
+#beh3:hover {
+     /*background: linear-gradient(to bottom, rgb(255,255,255)10%, rgb(249,2,2)110%);*/
+     background-color: rgb(249, 2,2 );
+     padding: 0.3em 0.5em;
+     border: 0.1em dashed white;
+     padding: 0.6em 0.9em;
+     border-radius: 1em;
+     box-shadow: 0px 0px 0px 4px rgb(249,2,2);
+}
+
+#link2 {
+  background: linear-gradient(to top, rgba(204, 153, 255,1), rgba(242, 230, 255,0) 60%);
+}
+#link2:hover {
+  font-size: 110%;
+  box-shadow: 0em 0em 1em 0.5em rgb(234,214,112);
+  border: none;
+  font-family: Coiny;
+  font-weight: bold;
+  letter-spacing: 1%;
+  border-radius: 0.8em 0.2em;
+  background: linear-gradient(to bottom, rgba(214, 163, 25,1), rgba(22, 20, 25,0) 60%);
+
+}
+
+#link3 {
+  background: linear-gradient(to top, rgba(210, 13, 55,1), rgba(242, 230, 255,0) 60%);
+}
+
+#link3:hover {
+  font-size: 120%;
+  border-radius:none;
+  border: 1px dotted;
+  border-radius: 0;
+  box-shadow: 0em 1.9em 10em 0.1em rgb(192,123,123);
+  background: linear-gradient(to left, rgba(213,11,98,1), rgba(123,43,9,1));
+  border: 0.5em solid black;
+  font-family: itim;
+
+
+
+}
+#link3:hover:after {
+    content: " / Peek a boo";
+    font-size: 110%;
+    color: lightblue;
+ }
+
+#link4 {
+  background: linear-gradient(to top, rgba(120, 113, 15,1), rgba(202, 231, 25,0) 60%);
+}
+#link4:hover{
+  background: rgb(176,182,1);
+  font-family: arial serif;
+  font-size: 120%;
+  box-shadow: 0.2em 0.05em 0.7em 0.25em rgb(176,182,1);
+  border: none;
+  color: darkgreen;
+
+}
+
+#link5 {
+  background: linear-gradient(to top, rgba(211, 113, 155,1), rgba(242, 230, 255,0) 60%);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+} 
+#link5:hover.dropdown-content{
+  display:inline;
+}
+
+.image img{
+  margin: 5% -4% 5% -1%;
+  border-radius: 10%;
+  border: 1px solid ivory;
+  outline: 1px dotted white;
+  box-shadow: 0.5em 0em 7em 1em  rgb(21, 12,12);
+  clear: left;
+
+}
+.article {
+  color: ivory;
+  border: none;
+  background-color: black;
+  letter-spacing:110%;
+  word-spacing: 110%;
+  line-height: 130%;
+  text-align: center;
+  padding: 2em 0em;
+
+
+}
+
+
+.footer {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 80%); 
+  border: 1px solid rgba(255,255,255,1);
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  margin-bottom: -10%;
+  clear: both;
+}
+address {
+  text-align: center;
+  padding-top: 1%;
+  font-family: Indie Flower;
+}
